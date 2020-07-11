@@ -1,0 +1,38 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.americanStandard{
+  font-family: 'Open Sans', sans-serif;
+  @media all {
+    @import './sections/desktop';
+  }
+
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    @import './sections/desktop';
+  }
+
+  @media all and (max-width: 1024px) {
+    @import './sections/tablet';
+  }
+
+  @media all and (max-width: 1024px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    @import './sections/tablet';
+  }
+
+  @media all and (max-width: 767px) {
+    @import './sections/mobile';
+  }
+
+  @media all and (max-width: 767px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    @import './sections/mobile';
+  }
+  @media all and (max-width: 374px) {
+    @import './sections/mobile-320';
+  }
+  
+  @media all and (max-width: 374px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    @import './sections/mobile-320';
+  }
+}
