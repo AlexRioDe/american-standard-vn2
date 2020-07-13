@@ -24,6 +24,7 @@
     "@babel/register": "^7.0.0",
     "core-js": "^3.4.1",
     "dotenv-webpack": "^1.7.0",
+    "jQuery": "^1.7.4",
     "lazysizes": "^5.1.2",
     "save": "^2.3.3",
     "webfontloader": "^1.6.28",

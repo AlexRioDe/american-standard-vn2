@@ -34,7 +34,7 @@ BrowserSyncPlugin
 plugins.push(new BrowserSyncPlugin({
   files: ["**/**/*.*"],
   reloadOnRestart: true,
-  proxy: "http://trugreen.local",
+  proxy: "http://vivint.local",
 }))
 // extract styles
 plugins.push(new MiniCssExtractPlugin({

@@ -25,6 +25,7 @@
 }
 
 .article {
+  
   .main {
     h1 {
       line-height: 28px;
@@ -32,15 +33,21 @@
     }
   }
   .form {
-    top: 23px;
+    padding-bottom: 90px;
     &__body {
       .step {
+        min-width: 281px;
         border-radius: 14px 14px 0 0;
         min-height: 387px;
-        .form__header {
-          max-width: 280px;
+        .form__header{
+          max-width: 281px;
+          margin: 0 auto;
         }
       }
+    }
+    &__body_process {
+      margin: 10px auto;
+      width: 281px;
     }
   }
 }

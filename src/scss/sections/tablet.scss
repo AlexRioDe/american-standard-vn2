@@ -25,6 +25,7 @@
     }
     &__body {
       .step {
+        min-width: 719px;
         .form__header{
           padding-top: 34px;
           padding-bottom: 52px;
@@ -32,6 +33,14 @@
         width: 470px;
       }
       
+    }
+  }
+  .free_form {
+    width: 350px;
+    .checkbox {
+      &__label {
+        font: 16px/33px Open Sans;
+      }
     }
   }
   .main h1 {
